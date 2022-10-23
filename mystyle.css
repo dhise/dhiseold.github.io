@@ -5,6 +5,16 @@
 #title {
   font-family: monospace;
   font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background: #b4a9ad;
+  padding: 10px;
+  border: solid 1px;
+}
+
+.s_types {
+  font-size: 30px;
+  font-family: monospace;
 }
 
 
