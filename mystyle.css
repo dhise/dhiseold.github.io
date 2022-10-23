@@ -10,12 +10,18 @@
   background: #b4a9ad;
   padding: 10px;
   border: solid 1px;
+  clear: both;
 }
 
 .s_types {
   font-size: 30px;
   font-family: monospace;
+  width:50%;
+  float: left;
+  clear: both;
 }
+
+.s_location
 
 
 .s_info {
