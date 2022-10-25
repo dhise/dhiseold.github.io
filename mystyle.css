@@ -47,3 +47,8 @@
   margin-bottom: 10px;
   clear: both;
 }
+
+span[title]:hover{
+  content: attr(title);
+
+}
