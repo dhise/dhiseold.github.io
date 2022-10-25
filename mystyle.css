@@ -50,5 +50,10 @@
 
 span[title]:hover{
   content: attr(title);
+  text-decoration: underline;
 
+}
+
+span[title]{
+  text-decoration: underline;
 }
