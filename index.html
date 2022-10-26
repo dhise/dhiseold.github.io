@@ -6,6 +6,7 @@
     <meta name="description" content="Quick Reference">
     <meta name="author" content="Jared Hise">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="myscripts.js"></script>
     <link rel="stylesheet" href="mystyle.css">
     </head>
     <body>
@@ -94,6 +95,15 @@
             <li>Tarantulas don't eat for days to weeks after molting. The older they are the longer before their fangs harden after a molt</li>
           </ul>
         </div>
+        <div id="buttons">
+          <label> <input id="query" value='cats' type="text"/><button id="search-button" disabled onclick="search()">Search</button></label>
+        </div>
+        <div id="search-container">
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="auth.js"></script>
+        <script src="search.js"></script>
+        <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"></script>
 
 
 
