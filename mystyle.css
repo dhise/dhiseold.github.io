@@ -1,5 +1,24 @@
 
 
+/** mp = main page styling **/
+.mpfont {
+  font-family: system-ui;
+  font-size: 40px;
+  clear:both;
+  margin: 50px;
+}
+
+.mpheader {
+  font-size:76px;
+  border: solid 1px;
+  padding: 10px;
+  font-weight: bold;
+  font-family: system-ui;
+  display: inline;
+  margin: 50px;
+}
+
+
 
 
 #title {
