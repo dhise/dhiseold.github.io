@@ -1,6 +1,11 @@
 Main page of webpages I made
 
 
+11/06 
+Going to start recording what i've worked on. Today was code academy coffee menu with settuping up multiple div classes.
+Realized that <div> is a container like a box with the content. Also made markers with in depth looking at styling for colors such as rgb(100,255, 60) etc. RBGA (0 0 0 0) for opacity
+
+
 # TFlowChart
 Flow chart for Tarantula keeping
 10/23 Started guide over with goal of keeping it simple and basic
