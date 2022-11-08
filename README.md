@@ -1,4 +1,10 @@
-Main page of webpages I made
+
+11/07
+Working on form for codeacademy teaching these important things
+Making forms with labels and field sets
+input types 
+how to submit
+
 
 
 11/06 
