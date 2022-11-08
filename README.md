@@ -5,6 +5,8 @@ Making forms with labels and field sets
 input types 
 how to submit
 
+really important styling including psuedo classes 
+
 
 
 11/06 
