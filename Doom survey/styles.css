@@ -1,0 +1,42 @@
+label {
+  display: block;
+  margin: .5rem 0;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25px;
+  border-color: black;
+  background-color: red;
+  font-weight: bold;
+  width: 60%;
+  font-size: 20px;
+  max-width: 300px;
+}
+body {
+  background-color: teal;
+  font-family: monospace;
+  font-size: 15px;
+  margin: .5em
+}
+
+.qfont {
+  font-size: 15px;
+}
+
+.endp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 500px;
+  max-height: 600px;
+}

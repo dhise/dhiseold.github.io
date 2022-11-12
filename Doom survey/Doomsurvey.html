@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Doom Survey</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Sample survey of Doom">
+  <meta name="author" content="Jared Hise">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">How did you first play Doom</h1>
+    <p id="description">Let's find out what way people were introduced to Doom</p>
+    <form method="post" action="https://register-demo.freecodecamp.org">
+    <fieldset>
+      <label for="name">Enter your Name:<input id="name-label" name="name" type="text" required placeholder="Name" /></label>
+
+      <label for="email">Enter your Email:<input id="email-label" name="email" type="email" required placeholder="Email" /></label>
+
+      <label for="number">Age when you first played:<input id="number-label" name ="number" type="number" min="3" max="99" placeholder="Age" /></label>
+      </fieldset>
+
+      <fieldset>
+      <label for="dropdown">What version did you play first?<select id="dropdown-label" name="dropdown">
+        <option value="">Computer</option>
+        <option value="1">Super Nintendo</option>
+        <option value="2">Atari Jaguar</option>
+        <option value="3">Sega 32x</option>
+        <option value="4">3DO</option>
+        <option value="5">Sega Saturn</option>
+        <option value="6">Gameboy Advance</option>
+        <option value="7">N64 or newer console</option>
+        </select>
+        </label>
+        <p class="qfont">Do you still play?</p>
+        <label for="still-play"><input id="still-play" type="radio" name="still" class="inline" />I still play</label>
+        <label for="no-play"><input id="no-play" type="radio" name="still" class="inline" />I don't play</label>
+
+        <p class="qfont">How did you play?</p>
+        <label id="sp" name="why-play"><input id="sp" type="checkbox" name="why-play" class="inline" />Single player
+        </label>
+        <label id="mp" name="why-play"><input id="sp" type="checkbox" name="why-play" class="inline" />Deathmatch
+        </label>
+        <label id="coop" name="why-play"><input id="coop" type="checkbox" name="why-play" class="inline">Co-Op
+        </label>
+        </fieldset>
+        <fieldset>
+          <label for="bestparts" class="inline"><p class="qfont">Your favorite aspects of Doom:</p>
+            <textarea id="bestparts" name="bestparts" rows="3" cols="30" placeholder="The music slaps and I like fragging people"></textarea>
+            </label>
+            <input id="submit" type="submit" value="Submit" />
+            </form>
+    </body>
+    <footer class="endp">
+      <!-- <img src="https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg">
+      <p style="font-size: 15px; color: yellow;">Survey made by Jared Hise</p>
+      </footer>-->
+      </html>
