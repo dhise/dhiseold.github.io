@@ -1,4 +1,10 @@
 
+11/15
+Working on flex containers with images
+A ton of important tags to modify images to make them fit
+
+
+
 11/07
 Working on form for codeacademy teaching these important things
 Making forms with labels and field sets
