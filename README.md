@@ -1,3 +1,5 @@
+5/21 Long Hiatus - Restarting learning. Will restart learning web dev + development language. Choosing between C# and Python 
+
 
 11/15
 Working on flex containers with images
